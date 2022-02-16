@@ -1,0 +1,21 @@
+{
+  "name": "in6bv_ejemplo",
+  "version": "1.0.0",
+  "description": "Este servidor es un ejemplo de la seccion IN6BV, Repositorio General",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Erick Bran",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.0",
+    "nodemon": "^2.0.15"
+  }
+}
